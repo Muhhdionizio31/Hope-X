@@ -197,3 +197,157 @@ nav a {
   margin-bottom: 20px;
   color: #e6e6e6;
 }
+
+.servicos .fundo {
+  background-color: #000000;
+  height: 300px;
+  padding-left: 570px;
+  margin-bottom: 100px;
+}
+
+
+.servicos .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 350px));
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    
+}
+
+.servicos .box-container .slide1{
+    text-align: center;
+    border: #521212;
+    padding: 3rem;
+    background-color: #ffffff;
+    height: 460px;
+    width: 350px;
+    border-radius: 10px;
+
+}
+
+.servicos .box-container .slide1 h1{
+  color: #521212;
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 20px;
+  font-weight: 900;
+  line-height: 1.1;
+}
+
+.servicos .box-container .slide1 p{
+  color: #000000;
+  text-align: left;
+  font-size: 25px;
+  line-height: 1.1;
+  
+
+}
+
+.servicos .box-container .slide1:hover{
+  box-shadow: 0px 0px 12px 12px #777777; 
+  background-color: #e7e7e7;
+
+} 
+
+.servicos .box-container .slide2{
+    text-align: center;
+    border: #521212;
+    padding: 3rem;
+    background-color: #ffffff;
+    height: 460px;
+    width: 350px;
+    border-radius: 10px;
+
+}
+
+.servicos .box-container .slide2 h1{
+  color: #521212;
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 20px;
+  font-weight: 900;
+  line-height: 1.1;
+}
+
+.servicos .box-container .slide2 p{
+  color: #000000;
+  text-align: left;
+  font-size: 22px;
+  line-height: 1.1;
+  
+
+}
+
+.servicos .box-container .slide2:hover{
+  box-shadow: 0px 0px 12px 12px #777777;  
+
+} 
+
+.servicos .box-container .slide3{
+    text-align: center;
+    border: #521212;
+    padding: 3rem;
+    background-color: #ffffff;
+    height: 460px;
+    width: 350px;
+    border-radius: 10px;
+
+}
+
+.servicos .box-container .slide3 h1{
+  color: #521212;
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 20px;
+  font-weight: 900;
+  line-height: 1.1;
+}
+
+.servicos .box-container .slide3 p{
+  color: #000000;
+  text-align: left;
+  font-size: 24px;
+  line-height: 1.1;
+  
+
+}
+
+.servicos .box-container .slide3:hover{
+  box-shadow: 0px 0px 12px 12px #777777;  
+  background-color: #e7e7e7;
+
+} 
+
+.servicos .box-container .slide4{
+    text-align: center;
+    border: #521212;
+    padding: 3rem;
+    background-color: #ffffff;
+    height: 460px;
+    width: 350px;
+    border-radius: 10px;
+
+}
+
+.servicos .box-container .slide4 h1{
+  color: #521212;
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 20px;
+  font-weight: 900;
+  line-height: 1.1;
+}
+
+.servicos .box-container .slide4 p{
+  color: #000000;
+  text-align: left;
+  font-size: 24px;
+  line-height: 1.1;
+
+}
+
+.servicos .box-container .slide4:hover{
+  box-shadow: 0px 0px 12px 12px #777777;  
+
+} 
