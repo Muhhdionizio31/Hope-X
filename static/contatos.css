@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    font-family: Helvetica;
+    color: white;
+}
+
+
+.cabecalho {
+    background: linear-gradient(#521212, #3d0a0a);
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.cabecalho h1 span {
+    font-weight: bold;
+    color: white;
+}
+
+.cabecalho h1{
+    color: black;
+    font-size: 50px;
+}
+
+.cabecalho .sub {
+    max-width: 900px;
+    margin: 50px auto;
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+.content {
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 200px ;
+}
+
+.imagem img {
+    width: 700px;
+    border-radius: 10px;
+    margin-right: 520px;
+    border: 2px solid;
+    border-color: #fff;
+}
+
+.info {
+    font-size: 22px;
+    line-height: 3.0;
+    margin-left: -100px;
+}
+
+.icon {
+    margin-right: 10px;
+    font-size: 22px;
+}
