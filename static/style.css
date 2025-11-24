@@ -88,7 +88,7 @@ nav a {
   text-align: left;
   gap: 1px;
   padding-left: 300px;
-  padding-top: 150px;
+  padding-top: 50px;
   color: white;
 
 }
@@ -99,7 +99,7 @@ nav a {
 
 .inicial-h1 h1 {
   margin-top: -300px;
-  font-size: 30px;
+  font-size: 25px;
   line-height: 1.2;
   font-weight: 100;
 }
@@ -146,55 +146,84 @@ nav a {
   margin-left: -25px;
 }
 
-
-.about {
-
+.sobre {
   margin-top: 320px;
   width: 100%;
   min-height: 100vh;
   background-image: url("img/Fundo\ 2.png");
 }
 
-.about .title img {
-  width: 300px;
+.sobre .titulo img {
+  width: 375px;
   height: 200px;
-  margin-left: 390px;
+  margin-left: 190px;
   margin-top: 175px;
 }
 
-.about .content {
+.sobre .content {
   margin-left: 310px;
-  max-width: 700px;
   text-align: left;
   padding: 100px;
+
 }
 
-.about .row img {
+.sobre .sobre-img img {
+  margin-left: 1200px;
   display: flex;
   align-items: center;
   gap: 1.5rem;
   width: 450px;
   height: 550px;
-  margin-left: 1100px;
-  margin-top: -150px;
+  margin-top: -160px;
   border-radius: 5%;
   border-width: 2px;
   border-style: solid;
   border-color: #fff;
 }
 
-.about .content h1 {
-  font-size: 22px;
+.sobre .content h1 {
+  font-size: 18px;
   color: #fff;
   margin-bottom: 20px;
-  font-weight: 600;
-  margin-top: -520px;
-  
+  font-weight: 1000;
+  margin-top: -550px;
+  width: 500px;
+  margin-left: -200px;
 }
 
-.about .content p {
-  font-size: 18px;
+.sobre .content p {
+  font-weight: 100;
+  font-size: 19px;
   line-height: 1.4;
-  margin-bottom: 20px;
+  margin-top: 5px;
   color: #e6e6e6;
+  margin-left: -200px;
+}
+
+.clientes h1 {
+  font-size: 30px;
+  color: #fff;
+  margin-top: -300px;
+  margin-left: 250px;
+}
+
+.clientes p {
+  font-size: 30px;
+  color: #fff;
+  margin-top: 30px;
+  margin-left: 300px;
+}
+
+.satisfacao h1 {
+  font-size: 30px;
+  color: #fff;
+  margin-top: -100px;
+  margin-left: 675px;
+}
+
+.satisfacao p {
+  font-size: 30px;
+  color: #fff;
+  margin-top: 25px;
+  margin-left: 715px;
 }
