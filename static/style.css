@@ -1,113 +1,200 @@
-body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      color: #333;
-      background-image: url('img/Fundo\ 1.png');
-    }
-    header {
-      background-color: transparent;
-      padding: 1px;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-
-    header .logo{
-      font-size: 24px;
-      font-weight: bold;
-      color: #333;
-    }
-
-    header .logo img{
-        height: 100px;
-        width: 150px;
-        margin-right: 1000px;
-    }
-
-    nav ul {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-      display: flex;
-  
-    }
-    nav li {
-      margin-left: 20px;
-
-    }
-    nav a {
-      text-decoration: none;
-      color: white;
-      font-size: 17px;
-    }
-
-  .inicial {
-      display: flex;
-      flex-direction: column; 
-      align-items: flex-start;
-      text-align: left;
-      gap: 1px;
-      padding-left: 300px; 
-      padding-top: 150px;
-      color: white;
-  }
-
-  .inicial-texto {
-      max-width: 450px;
-  }
-
-  .inicial-h1 h1 {
-      margin-top: -300px; 
-      font-size: 30px;
-      line-height: 1.2;
-      font-weight: 100;
-  }
-
-  .inicial-p p{
-      
-      padding: 0px;
-      margin: 0 0 25px 0;
-      font-size: 20px;
-      font-weight: 200;
-      line-height: 1.4;
-      color: #f0f0f0;
-      margin-top: -190px; 
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
-  }
-
-  .btn {
-      padding: 12px 25px;
-      border: none;
-      background-color: #521212;
-      color: white;
-      font-size: 20px;
-      border-radius: 50px;
-      cursor: pointer;
-      transition: 0.3s;
-
-  }
-
-  .btn :hover {
-      background-color: #521212;
-  }
-
-
-.inicial-img{    
-  order:-1;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: 0.2s linear;
+  font-family: "Roboto", sans-serif;
 }
 
-  .inicial-img img {
-    margin-top: -10%;
-    width: 500px;
-    height: 400px;
-    display: block;
-    margin-left: -25px;
-  }
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-image: url('img/Fundo\ 1.png');
+
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 80px;
+}
+
+header .logo img {
+  height: 80px;
+  width: auto;
+  margin-right: 0;
+}
+
+header .logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+header nav ul {
+  display: flex;
+}
+
+header nav ul li {
+  cursor: pointer;
+  position: relative;
+  padding: 5px 0;
+}
+
+header nav ul li::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: #fff;
+  transition: width 0.1s ease;
+}
+
+header nav ul li:hover::after {
+  width: 100%;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+
+}
+
+nav li {
+  margin-left: 20px;
+
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+}
+
+.inicial {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  gap: 1px;
+  padding-left: 300px;
+  padding-top: 150px;
+  color: white;
+
+}
+
+.inicial-texto {
+  max-width: 450px;
+}
+
+.inicial-h1 h1 {
+  margin-top: -300px;
+  font-size: 30px;
+  line-height: 1.2;
+  font-weight: 100;
+}
+
+.inicial-p p {
+
+  padding: 0px;
+  margin: 0 0 25px 0;
+  font-size: 20px;
+  font-weight: 200;
+  line-height: 1.4;
+  color: #f0f0f0;
+  margin-top: -190px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.btn {
+  padding: 12px 40px;
+  border: none;
+  background-color: #521212;
+  color: white;
+  font-size: 15px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: 600;
+
+}
+
+.btn :hover {
+  background-color: #521212;
+}
 
 
+.inicial-img {
+  order: -1;
+}
+
+.inicial-img img {
+  margin-top: -10%;
+  width: 500px;
+  height: 400px;
+  display: block;
+  margin-left: -25px;
+}
 
 
+.about {
 
-   
+  margin-top: 320px;
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("img/Fundo\ 2.png");
+}
+
+.about .title img {
+  width: 300px;
+  height: 200px;
+  margin-left: 390px;
+  margin-top: 175px;
+}
+
+.about .content {
+  margin-left: 310px;
+  max-width: 700px;
+  text-align: left;
+  padding: 100px;
+}
+
+.about .row img {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  width: 450px;
+  height: 550px;
+  margin-left: 1100px;
+  margin-top: -150px;
+  border-radius: 5%;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #fff;
+}
+
+.about .content h1 {
+  font-size: 22px;
+  color: #fff;
+  margin-bottom: 20px;
+  font-weight: 600;
+  margin-top: -520px;
   
+}
+
+.about .content p {
+  font-size: 18px;
+  line-height: 1.4;
+  margin-bottom: 20px;
+  color: #e6e6e6;
+}
