@@ -32,9 +32,10 @@ body {
     background: #000;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     gap: 50px;
-    padding: 200px ;
+    padding: 177px;
+   
 }
 
 .imagem img {
@@ -46,12 +47,21 @@ body {
 }
 
 .info {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px; 
     font-size: 22px;
     line-height: 3.0;
     margin-left: -100px;
 }
 
 .icon {
+   width: 30px;
+    height: 30px;
+    object-fit: contain;
     margin-right: 10px;
-    font-size: 22px;
+}
+
+.footer {
+    background-color: black;
 }
