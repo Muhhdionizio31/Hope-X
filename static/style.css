@@ -19,10 +19,14 @@ body {
 }
 
 header {
+  position: fixed;
   display: flex;
   justify-content: space-between;
-  align-items: center;
   padding: 15px 80px;
+  top: 0;
+  left: 0; 
+  right: 0;
+  z-index: 99;
 }
 
 header .logo img {
@@ -79,6 +83,7 @@ nav a {
   text-decoration: none;
   color: white;
   font-size: 17px;
+
 }
 
 .inicial {
@@ -88,8 +93,8 @@ nav a {
   text-align: left;
   gap: 1px;
   padding-left: 300px;
-  padding-top: 50px;
   color: white;
+  margin-top: 150px;
 
 }
 
@@ -129,8 +134,9 @@ nav a {
 
 }
 
-.btn :hover {
-  background-color: #521212;
+.btn:hover {
+  background-color: #5212128c;
+  box-shadow: 0px 0px 3px 3px #521212c0;
 }
 
 
@@ -151,6 +157,13 @@ nav a {
   width: 100%;
   min-height: 100vh;
   background-image: url("img/Fundo\ 2.png");
+
+}
+
+.sobre .divisoria {
+  background-color: #000000ab;
+  box-shadow: 0px 0px 14px 14px #000000b7;
+  height: 20px;
 }
 
 .sobre .titulo img {
@@ -228,204 +241,253 @@ nav a {
   margin-left: 715px;
 }
 
-.servicos .fundo {
-  background-color: #000000;
-  box-shadow: 0px 0px 12px 12px #5212126b;
-  height: 330px;
-  padding-left: 570px;
-  margin-bottom: 100px;
+.servicos {
+  background-image: url('img/Fundo\ 1.png');
+  width: 100%;
+  min-height: 100vh;
 }
 
+.servicos .divisoria {
+  background-color: #000000d0;
+  box-shadow: 0px 0px 10px 5px #000000d7;
+  height: 20px;
+
+}
+
+.servicos .titulo img {
+  margin-left: 600px;
+  margin-top: -50px;
+}
 
 .servicos .box-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 350px));
-    justify-content: center;
-    align-items: center;
-    gap: 1.5rem;
-    
+  display: grid;
+  margin-top: 150px;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 350px));
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
 }
 
-.servicos .box-container .slide1{
-    text-align: center;
-    border: #521212;
-    padding: 3rem;
-    background-color: #ffffff;
-    height: 460px;
-    width: 350px;
-    border-radius: 10px;
+.servicos .box-container .slide1 {
+  text-align: center;
+  border: #521212;
+  padding: 3rem;
+  background-color: #ffffff;
+  height: 460px;
+  width: 350px;
+  border-radius: 50px;
 
 }
 
-.servicos .box-container .slide1 h1{
+.servicos .box-container .slide1 h1 {
   color: #521212;
   text-align: center;
-  font-size: 25px;
+  font-size: 23px;
   margin-bottom: 20px;
   font-weight: 900;
   line-height: 1.1;
 }
 
-.servicos .box-container .slide1 p{
+.servicos .box-container .slide1 p {
   color: #000000;
   text-align: left;
-  font-size: 25px;
+  font-size: 20px;
   line-height: 1.1;
-  
-
 }
 
-.servicos .box-container .slide1:hover{
-  box-shadow: 0px 0px 12px 12px #777777; 
+.servicos .box-container .slide1 img {
+  width: 80px;
+}
+
+.servicos .box-container .slide1:hover {
+  box-shadow: 0px 0px 12px 12px #777777;
   background-color: #e7e7e7;
 
-} 
+}
 
-.servicos .box-container .slide2{
-    text-align: center;
-    border: #521212;
-    padding: 3rem;
-    background-color: #ffffff;
-    height: 460px;
-    width: 350px;
-    border-radius: 10px;
+.servicos .box-container .slide2 {
+  text-align: center;
+  border: #521212;
+  padding: 3rem;
+  background-color: #ffffff;
+  height: 460px;
+  width: 350px;
+  border-radius: 50px;
 
 }
 
-.servicos .box-container .slide2 h1{
+.servicos .box-container .slide2 h1 {
   color: #521212;
   text-align: center;
-  font-size: 25px;
+  font-size: 23px;
   margin-bottom: 20px;
   font-weight: 900;
   line-height: 1.1;
+
 }
 
-.servicos .box-container .slide2 p{
+.servicos .box-container .slide2 p {
   color: #000000;
   text-align: left;
-  font-size: 22px;
+  font-size: 20px;
   line-height: 1.1;
-  
+}
+
+.servicos .box-container .slide2 img {
+  width: 80px;
+}
+
+.servicos .box-container .slide2:hover {
+  box-shadow: 0px 0px 12px 12px #777777;
+  background-color: #e6e6e6;
+}
+
+.servicos .box-container .slide3 {
+  text-align: center;
+  border: #521212;
+  padding: 3rem;
+  background-color: #ffffff;
+  height: 460px;
+  width: 350px;
+  border-radius: 50px;
 
 }
 
-.servicos .box-container .slide2:hover{
-  box-shadow: 0px 0px 12px 12px #777777;  
-
-} 
-
-.servicos .box-container .slide3{
-    text-align: center;
-    border: #521212;
-    padding: 3rem;
-    background-color: #ffffff;
-    height: 460px;
-    width: 350px;
-    border-radius: 10px;
-
-}
-
-.servicos .box-container .slide3 h1{
+.servicos .box-container .slide3 h1 {
   color: #521212;
   text-align: center;
-  font-size: 25px;
+  font-size: 23px;
   margin-bottom: 20px;
   font-weight: 900;
   line-height: 1.1;
+  margin-top: 5px;
 }
 
-.servicos .box-container .slide3 p{
+.servicos .box-container .slide3 p {
   color: #000000;
   text-align: left;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 1.1;
-  
-
 }
 
-.servicos .box-container .slide3:hover{
-  box-shadow: 0px 0px 12px 12px #777777;  
+.servicos .box-container .slide3 img {
+  width: 80px;
+}
+
+.servicos .box-container .slide3:hover {
+  box-shadow: 0px 0px 12px 12px #777777;
   background-color: #e7e7e7;
+}
 
-} 
-
-.servicos .box-container .slide4{
-    text-align: center;
-    border: #521212;
-    padding: 3rem;
-    background-color: #ffffff;
-    height: 460px;
-    width: 350px;
-    border-radius: 10px;
+.servicos .box-container .slide4 {
+  text-align: center;
+  border: #521212;
+  padding: 3rem;
+  background-color: #ffffff;
+  height: 460px;
+  width: 350px;
+  border-radius: 50px;
 
 }
 
-.servicos .box-container .slide4 h1{
+.servicos .box-container .slide4 h1 {
   color: #521212;
   text-align: center;
-  font-size: 25px;
+  font-size: 23px;
   margin-bottom: 20px;
   font-weight: 900;
   line-height: 1.1;
+  margin-top: 20px;
 }
 
-.servicos .box-container .slide4 p{
+.servicos .box-container .slide4 p {
   color: #000000;
   text-align: left;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 1.1;
 
 }
 
-.servicos .box-container .slide4:hover{
-  box-shadow: 0px 0px 12px 12px #777777;  
+.servicos .box-container .slide4:hover {
+  box-shadow: 0px 0px 12px 12px #777777;
+  background-color: #e7e7e7;
+}
 
-} 
+.servicos h2 {
+  margin-left: 500px;
+  margin-top: -80px;
+  font-weight: 100;
+  color: #fff;
+}
+
+.servicos h3 {
+  margin-left: 725px;
+  margin-top: -95px;
+  font-weight: 100;
+  color: #fff;
+}
 
 :root {
   --main: #c02a2a;
-  --dark: #060405;
-  --card-border: rgba(255, 255, 255, 0.12);
-  --glass: rgba(255, 255, 255, 0.03);
-  --accent: #cfa21b;
-  --text: #f3f3f3;
-  --muted: rgba(255, 255, 255, 0.7);
+  --preto: #060405;
+  --borda: rgba(255, 255, 255, 0.12);
+  --transparente: rgba(255, 255, 255, 0.03);
+  --estrelas: #cfa21b;
+  --texto: #f3f3f3;
+  --comentario: rgba(255, 255, 255, 0.7);
 }
 
 .section {
   padding: 50px 20px;
-  margin-top: 100px;
   min-height: 80vh;
   display: flex;
   align-items: center;
   justify-content: center;
   background-image: url(img/Fundo\ 3.png);
-  
+
+}
+
+.section .divisoria {
+  background-color: #000000d0;
+  box-shadow: 0px 0px 10px 5px #000000d7;
+  height: 20px;
+ 
 }
 
 .container {
-  width: 100%;
-  margin-top: -35px;
+  min-width: 100%;
+  margin-top: 150px;
   margin-left: -250px;
   margin-right: -250px;
   min-height: 200px;
 
 }
 
-.section .container .titulo h1 {
-  margin-top: 200px;
+.section .container h1 {
+  width: 100%;
+
+  margin-top: -220px;
   text-align: center;
   font-weight: 800;
   font-size: 50px;
-  color: var(--text);
+  color: var(--texto);
+  display: block;
+
+}
+
+.section .container span {
+  line-height: 0.8;
+  text-align: center;
+  font-weight: 800;
+  font-size: 50px;
+  color: var(--main);
   display: block;
 }
 
 
 .avaliacoes {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 0.7fr);
   gap: 28px;
   align-items: start;
   margin-top: 100px;
@@ -433,7 +495,7 @@ nav a {
 
 .avaliacao {
   background: linear-gradient(180deg, rgba(92, 61, 61, 0.534), rgba(255, 255, 255, 0.01));
-  border: 1px solid var(--card-border);
+  border: 1px solid var(--borda);
   padding: 34px 22px 28px;
   position: relative;
   min-height: 330px;
@@ -493,7 +555,7 @@ nav a {
 .comentario {
   font-size: 13px;
   line-height: 1.4;
-  color: var(--muted);
+  color: var(--comentario);
 
   margin-bottom: 16px;
   color: #fff;
@@ -502,6 +564,7 @@ nav a {
 .estrelas {
   margin-top: 6px;
   font-size: 16px;
-  color: var(--accent);
+  color: var(--estrelas);
   letter-spacing: 2px;
 }
+
