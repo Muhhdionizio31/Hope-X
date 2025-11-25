@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: 0.2s linear;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+    margin: 0;
+    color: #333;
+    background-image: url("img/Fundo\ 4.png");
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;   
+}
+
+h2 {
+    margin-bottom: 350px;
+    margin-left: 50px;
+    color: #511212;
+    
+}
+
+form {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: -255px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: 5px;
+    border: 1px solid #aaa;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px;
+    width: 100%;
+    background: #511212;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #666666;
+    box-shadow: 0px 0px 4px 4px #999999;
+}
+

@@ -1,20 +1,24 @@
-<!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Enviar e-mail</title>
+    <title>Formulario</title>
     <link rel="icon" href="../static/img/Icon.png">
     <link rel="stylesheet" href="../static/form.css">
 </head>
+
 <body>
     <h2>Formulário de Contato</h2>
 
     <form action="/enviar" method="POST">
-        <label>Nome:</label><br>
-        <input type="text" name="nome" required><br><br>
+        <label>Nome:</label>
+        <input type="text" name="nome" required>
 
-        <label>Email:</label><br>
-        <input type="email" name="email" required><br><br>
+        <br><br>
+
+        <label>Email:</label>
+        <input type="email" name="email" required>
+
+        <br><br>
 
         <button type="submit">Enviar</button>
     </form>
