@@ -105,9 +105,11 @@ Inclui:
   - `/static/img/` (todas as imagens usadas)
 
 ---
-## 🧾 Licença Este projeto é de uso livre para fins educacionais e demonstração. Sinta-se à vontade para modificar e adequar suas necessidades.
+## 🧾 
+Licença Este projeto é de uso livre para fins educacionais e demonstração. Sinta-se à vontade para modificar e adequar suas necessidades.
 
 Group Hope-X - Coryright
+
 
 
 
