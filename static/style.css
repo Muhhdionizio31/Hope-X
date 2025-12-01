@@ -254,6 +254,17 @@ nav a {
   color: #e6e6e6;
 }
 
+.cli-satis{
+  display: flex;
+  gap: 200px;
+
+}
+
+.clientes:hover{
+  transform: scale(1) translateY(-10px);
+
+}
+
 .clientes h1 {
   font-size: 30px;
   color: #fff;
@@ -264,22 +275,27 @@ nav a {
 .clientes p {
   font-size: 30px;
   color: #fff;
-  margin-top: 30px;
+  margin-top: 10px;
   margin-left: 300px;
+}
+
+.satisfacao:hover{
+  transform: scale(1) translateY(-10px);
+
 }
 
 .satisfacao h1 {
   font-size: 30px;
   color: #fff;
-  margin-top: -100px;
-  margin-left: 675px;
+  margin-top: -300px;
+
 }
 
 .satisfacao p {
   font-size: 30px;
   color: #fff;
-  margin-top: 25px;
-  margin-left: 715px;
+  margin-top: 10px;
+  margin-left: 35px;
 }
 
 .servicos {
