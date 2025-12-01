@@ -110,7 +110,7 @@ nav a {
 }
 
 .inicial-p p {
-
+  text-transform: none;
   padding: 0px;
   margin: 0 0 25px 0;
   font-size: 20px;
@@ -121,8 +121,21 @@ nav a {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+.inicial-p1 p{
+  padding: 0px;
+  margin-top: -80px;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.2;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #fafafae7;
+  margin-bottom: -10px;
+  text-transform: none;
+}
+
 .btn {
-  padding: 12px 40px;
+  margin-top: -15px;
+  padding: 10px 35px;
   border: none;
   background-color: #521212;
   color: white;
@@ -259,6 +272,36 @@ nav a {
   margin-top: -50px;
 }
 
+.servicos .titulo .subtitulo {
+  margin-top: -100px;
+}
+
+.servicos .titulo .subtitulo h2{
+  padding: 0px;
+  margin-top: -80px;
+  margin-left: 600px;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.2;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #fafafae7;
+  text-transform: none;
+
+}
+
+.servicos .titulo .subtitulo1 h3{
+  padding: 0px;
+  margin-top: -80px;
+  margin-left: 740px;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.2;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #fafafae7;
+  text-transform: none;
+
+}
+
 .servicos .box-container {
   display: grid;
   margin-top: 150px;
@@ -266,6 +309,7 @@ nav a {
   justify-content: center;
   align-items: center;
   gap: 1.5rem;
+  
 }
 
 .servicos .box-container .slide1 {
@@ -286,6 +330,7 @@ nav a {
   margin-bottom: 20px;
   font-weight: 900;
   line-height: 1.1;
+  text-transform: none;
 }
 
 .servicos .box-container .slide1 p {
@@ -293,6 +338,7 @@ nav a {
   text-align: left;
   font-size: 20px;
   line-height: 1.1;
+  text-transform: none;
 }
 
 .servicos .box-container .slide1 img {
@@ -323,6 +369,7 @@ nav a {
   margin-bottom: 20px;
   font-weight: 900;
   line-height: 1.1;
+  text-transform: none;
 
 }
 
@@ -331,6 +378,7 @@ nav a {
   text-align: left;
   font-size: 20px;
   line-height: 1.1;
+  text-transform: none;
 }
 
 .servicos .box-container .slide2 img {
@@ -361,6 +409,7 @@ nav a {
   font-weight: 900;
   line-height: 1.1;
   margin-top: 5px;
+  text-transform: none;
 }
 
 .servicos .box-container .slide3 p {
@@ -368,6 +417,7 @@ nav a {
   text-align: left;
   font-size: 20px;
   line-height: 1.1;
+  text-transform: none;
 }
 
 .servicos .box-container .slide3 img {
@@ -387,6 +437,7 @@ nav a {
   height: 460px;
   width: 350px;
   border-radius: 50px;
+  text-transform: none;
 
 }
 
@@ -398,6 +449,7 @@ nav a {
   font-weight: 900;
   line-height: 1.1;
   margin-top: 20px;
+  text-transform: none;
 }
 
 .servicos .box-container .slide4 p {
@@ -405,6 +457,7 @@ nav a {
   text-align: left;
   font-size: 20px;
   line-height: 1.1;
+  text-transform: none;
 
 }
 
@@ -448,10 +501,11 @@ nav a {
 }
 
 .section .divisoria {
-  background-color: #000000d0;
-  box-shadow: 0px 0px 10px 5px #000000d7;
+  background: linear-gradient(to right, #131313c9 0%, #3f0000da 50%, #131313c9 100%);
+  box-shadow: 0px 0px 10px 5px #3800008f;
   height: 20px;
- 
+  margin-bottom: 300px;
+  margin-top: -300px;
 }
 
 .container {
