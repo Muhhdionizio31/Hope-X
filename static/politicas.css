@@ -155,6 +155,7 @@ header nav ul li:hover::after {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 40px;
+    line-height: 3.0;
 }
 
 .footer-logos img {
