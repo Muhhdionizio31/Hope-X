@@ -113,8 +113,10 @@ nav a {
   font-weight: 100;
 }
 
+
 .inicial-p p {
   text-transform: none;
+  transition: transform 0.3s ease;
   padding: 0px;
   margin: 0 0 25px 0;
   font-size: 20px;
@@ -123,6 +125,10 @@ nav a {
   color: #f0f0f0;
   margin-top: -190px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.inicial-p p:hover {
+  transform: scale(1.12);
 }
 
 .inicial-p1 p{
@@ -135,6 +141,12 @@ nav a {
   color: #fafafae7;
   margin-bottom: -10px;
   text-transform: none;
+  transition: transform 0.1s ease;
+}
+
+.inicial-p1:hover {
+  transform: scale(1.10);
+
 }
 
 .btn {
@@ -159,6 +171,7 @@ nav a {
 .btn:hover {
   background-color: #5212128c;
   box-shadow: 0px 0px 3px 3px #521212c0;
+  transform: scale(1.10);
 }
 
 
