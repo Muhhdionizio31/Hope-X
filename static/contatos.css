@@ -147,7 +147,8 @@ nav a {
 
 .footer-colunas{
     margin-right: -200px;
-    margin-top: 90px;
+    margin-top: 200px;
+    justify-items:flex-start;
 }
 .footer-colunas a {
     display: block;

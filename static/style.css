@@ -627,3 +627,63 @@ nav a {
   letter-spacing: 2px;
 }
 
+.footer {
+    background-color: black;
+    color:#ffffff;
+    padding: 30px;
+   
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+    line-height: 3.0;
+}
+
+.footer-colunas{
+    margin-right: -200px;
+    margin-top: 90px;
+}
+.footer-colunas a {
+    display: block;
+    color: #dddddd;
+    text-decoration: none;
+    margin: 8px 0;
+    font-size: 15px;
+    margin-left: 100;
+}
+
+.footer-colunas a:hover {
+    color: #521212;
+}
+
+.footer-title {
+    color: #521212;
+    font-size: 15px;
+    font-weight:bold;
+}
+
+.footer-container .footer-logos img {
+    width: 500px;
+    margin-bottom: 40px;
+    margin-left: -350px;
+    
+}
+.footer-container .social-icons img {
+    width: 70px;
+    padding: 15px;
+    margin-top: -20px;
+    margin-left: -140px;
+    flex-direction: column;
+}
+
+.footer-container h2{
+    margin-top: -180px;
+    margin-left: -230px;
+    font-weight: 100;
+    font-size: 15px;
+}
+
