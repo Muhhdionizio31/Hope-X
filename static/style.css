@@ -245,6 +245,7 @@ nav a {
 }
 
 .sobre .content p {
+  text-transform: none;
   font-weight: 100;
   font-size: 19px;
   line-height: 1.4;
