@@ -2,6 +2,7 @@ from flask import Flask, render_template, request
 from flask_cors import CORS
 import smtplib
 from email.message import EmailMessage
+import os
 
 app = Flask(__name__)
 CORS(app)
@@ -14,15 +15,15 @@ def index():
 def enviar():
     destinatario = request.form["email"]   # e-mail da pessoa
 
-    # Configurações do seu e-mail
+    # Configurações do e-mail
     EMAIL_REMETENTE = "grouphopex@gmail.com"
-    SENHA = "otfwlpfmjfoultlz"   # senha de app 
+    SENHA = os.getenv("EMAIL_SENHA")
 
     msg = EmailMessage()
     msg["Subject"] = "Olá, Somos a Hope-X!"
     msg["From"] = EMAIL_REMETENTE
     msg["To"] = destinatario
-
+    # Mensagem enviada
     msg.add_alternative("""
     <html>
     <body>
