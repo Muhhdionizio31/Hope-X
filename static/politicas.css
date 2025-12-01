@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 
 body {
     background-color: #000;
@@ -100,5 +103,3 @@ nav a {
 ul {
     padding-left: 20px;
 }
-
-
