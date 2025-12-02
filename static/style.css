@@ -303,10 +303,7 @@ nav a {
   margin-left: 300px;
 }
 
-.satisfacao:hover{
-  transform: scale(1) translateY(-10px);
 
-}
 
 .satisfacao h1 {
   font-size: 30px;
@@ -322,6 +319,16 @@ nav a {
   margin-left: 35px;
 }
 
+.satisfacao{
+  margin-top: 220px;
+  margin-left: 650px;
+
+}
+
+.satisfacao:hover{
+  transform: scale(1) translateY(-10px);
+
+}
 .servicos {
   background-image: url('img/Fundo\ 1.png');
   width: 100%;
