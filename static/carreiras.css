@@ -81,10 +81,10 @@ nav a {
     top: 0;
     left: 0;
     width: 240px;
-    height: 80vh;
+    height: 100vh;
     background: transparent;
     padding: 20px;
-    border-right: 1px solid #ffffff;
+    border-right: 1px solid rgb(255, 255, 255, 0.15);
     overflow-y: auto;
     margin-top: 80px;
 }

@@ -136,9 +136,10 @@ p {
 .footer {
     background-color: black;
     color: #ffffff;
-    margin-left: 100px;
+    margin-left: 250px;
     display: flex;
     margin-top: 80px;
+
 }
 
 .footer-container {
@@ -149,6 +150,7 @@ p {
   grid-template-columns: repeat(4, 1fr);
   gap: 40px;
   line-height: 3.0;
+  margin-left: 400px;
 }
 
 .footer-logos img {
