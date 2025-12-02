@@ -5,7 +5,6 @@
   outline: none;
   border: none;
   text-decoration: none;
-  text-transform: capitalize;
   transition: 0.2s linear;
   font-family: "Roboto", sans-serif;
 }
@@ -60,6 +59,10 @@ header nav ul li {
   padding: 5px 0;
 }
 
+nav ul li:hover a {
+  color: #521212;
+}
+
 header nav ul li::after {
   content: '';
   position: absolute;
@@ -67,8 +70,8 @@ header nav ul li::after {
   bottom: 0;
   width: 0;
   height: 2px;
-  background-color: #fff;
-  transition: width 0.1s ease;
+  background-color: #521212;
+  transition: width 0.3s ease;
 }
 
 header nav ul li:hover::after {
