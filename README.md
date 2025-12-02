@@ -1,116 +1,68 @@
-# 🚀 **HOPE-X – Soluções Tecnológicas Inteligentes**
+# Hope-X – Plataforma Web com Backend em Python
 
-Bem-vindo ao **HOPE-X**, um site moderno e responsivo criado para apresentar serviços tecnológicos, mostrar a missão da empresa e oferecer canais de contato para novos clientes.  
-O projeto combina **design profissional**, **clareza visual**, **copywriting comercial** e **estrutura limpa**, ideal para empresas que querem fortalecer sua presença digital.
+## 📌 Visão Geral
 
----
+Hope-X é um projeto web que combina um **frontend simples em HTML/CSS** com um **backend leve desenvolvido em Python (Flask)**.  
+O objetivo principal do sistema é demonstrar uma estrutura funcional de site com formulário integrado a um servidor backend que processa e recebe os dados enviados.
 
-## 📌 **Sumário**
-
-- [Visão Geral](#visão-geral)  
-- [Páginas do Projeto](#páginas-do-projeto)  
-- [Funcionalidades](#funcionalidades)  
-- [Tecnologias Utilizadas](#tecnologias-utilizadas)  
-- [Estrutura de Arquivos](#estrutura-de-arquivos)  
-- [Como Executar Localmente](#como-executar-localmente)  
-- [Demonstração Visual](#demonstração-visual)  
-- [Contribuição](#contribuição)  
-- [Licença](#licença)  
-- [Contato](#contato)  
+O projeto pode ser utilizado como modelo educacional, demonstração ou ponto de partida para sistemas mais completos.
 
 ---
 
-## 🧐 **Visão Geral**
+## 📂 Principais Arquivos do Projeto
 
-O website **HOPE-X** foi desenvolvido com foco em:
+O repositório possui **3 arquivos centrais**:
 
-✔ Apresentar serviços de tecnologia, desenvolvimento e transformação digital  
-✔ Mostrar a missão e valores da marca  
-✔ Exibir métricas de clientes, satisfação e casos de uso  
-✔ Disponibilizar uma página de contatos completa  
-✔ Permitir envio de formulários pelo usuário  
+### **1. `app.py`**
+Arquivo responsável pelo **backend em Python**, utilizando o framework Flask.
 
-Com uma identidade visual futurista, o site demonstra profissionalismo, inovação e clareza — tudo pensado para conversão e impacto visual.
-
----
-
-## 🌍 **Páginas do Projeto**
-
-O repositório contém **3 páginas principais**:
+Funções principais:
+- Servir as páginas HTML (`index.html` e `form.html`);
+- Receber os dados enviados pelo formulário (rota `/enviar`);
+- Tratar requisições GET e POST.
 
 ---
 
-### **1. Página Inicial – `index.html`**
+### **2. `index.html`**
+Página inicial do site.
 
-Inclui:
-
-- Seção hero com título chamativo  
-- Imagem institucional da empresa  
-- Botão para cadastro  
-- Seção “Sobre” com texto institucional  
-- Métricas da empresa (Clientes Ativos, Satisfação)  
-- Seção completa de serviços com ícones ilustrativos  
-- Depoimentos com fotos e avaliações por estrelas  
+Contém:
+- Estrutura visual com título, seções informativas e layout base;
+- Navegação para o formulário;
+- Design simples e responsivo;
+- Conteúdo institucional da Hope-X.
 
 ---
 
-### **2. Página de Contatos – `contatos.html`**
+### **3. `form.html`**
+Página do **formulário de envio de dados**.
 
-Apresenta:
-
-- Cabeçalho institucional  
-- Texto convidativo  
-- Foto ilustrativa  
-- Bloco de contatos contendo:  
-  - Telefone  
-  - Email  
-  - Endereço  
-- Rodapé completo com redes sociais, seções da empresa, suporte e área legal  
+Possui:
+- Campos de entrada (nome, email, mensagem, etc.);
+- Envio via método **POST** para o backend do Flask;
+- Integração direta com `app.py`.
 
 ---
 
-### **3. Formulário – `form.html`**
+## 🚀 Funcionalidades
 
-Inclui:
-
-- Formulário simples e funcional  
-- Campos de Nome e Email  
-- Botão para enviar  
-- Método `POST` para `/enviar` (aguardando backend futuro)
+- Página inicial com conteúdo institucional;
+- Formulário funcional integrado ao backend;
+- Estrutura simples e leve;
 
 ---
 
-## ✨ **Funcionalidades**
+## 🛠 Tecnologias Utilizadas
 
-- ✔ Design atual e responsivo  
-- ✔ Navegação simples e intuitiva  
-- ✔ Componentes bem distribuídos  
-- ✔ Uso consistente de ícones e imagens  
-- ✔ Formulário funcional e extensível  
-- ✔ Layout limpo voltado para conversão  
-- ✔ Rodapé profissional com múltiplos links  
-- ✔ Imagens organizadas e branding bem aplicado  
-
+- **Python 3**
+- **Flask**
+- **HTML5**
+- **CSS3**
+  
 ---
 
-## 🛠️ **Tecnologias Utilizadas**
-
-- **HTML5**  
-- **CSS3**  
-- **JavaScript** (opcional — site principal não depende de JS)  
-- Estrutura modular:  
-  - `/static/style.css`  
-  - `/static/contatos.css`  
-  - `/static/form.css`  
-  - `/static/img/` (todas as imagens usadas)
-
----
-## 🧾 Licença
-Este projeto é de uso livre para fins educacionais e demonstração. Sinta-se à vontade para modificar e adequar suas necessidades.
+## 🧾 Licença 
+Este projeto é de uso livre para fins educacionais e demonstração. Sinta-se à vontade para modificar e adequar suas necessidades. 
 
 Group Hope-X - Coryright
-
-
-
-
 
