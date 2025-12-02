@@ -345,11 +345,12 @@ nav a {
 .servicos .titulo img {
   margin-left: 600px;
   margin-top: -50px;
+  z-index: 99;
+  position: relative;
 }
 
 .servicos .titulo .titulo-img:hover{
-  transform: scale(1) translateY(-10px);
-
+  transform: scale(1.10);
 }
 
 .servicos .titulo .subtitulo {
