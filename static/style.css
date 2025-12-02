@@ -5,7 +5,6 @@
   outline: none;
   border: none;
   text-decoration: none;
-  text-transform: capitalize;
   transition: 0.2s linear;
   font-family: "Roboto", sans-serif;
 }
@@ -31,7 +30,7 @@ header {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 99;
+  z-index: 100;
   backdrop-filter: blur(10px);
   background: rgba(0, 0, 0, 0.35);
   border-bottom: 1px solid rgba(255, 255, 255, 0.12);
@@ -60,6 +59,10 @@ header nav ul li {
   padding: 5px 0;
 }
 
+nav ul li:hover a {
+  color: #521212;
+}
+
 header nav ul li::after {
   content: '';
   position: absolute;
@@ -67,8 +70,8 @@ header nav ul li::after {
   bottom: 0;
   width: 0;
   height: 2px;
-  background-color: #fff;
-  transition: width 0.1s ease;
+  background-color: #521212;
+  transition: width 0.3s ease;
 }
 
 header nav ul li:hover::after {
@@ -107,6 +110,28 @@ nav a {
 
 }
 
+.inicial-img {
+  order: -1;
+  position: relative;
+  z-index: 1;
+}
+
+.inicial-img:hover {
+  transform: scale(1.05);
+  position: relative;
+  z-index: 1;
+  
+}
+
+.inicial-img img {
+  margin-top: -10%;
+  width: 500px;
+  height: 400px;
+  display: block;
+  margin-left: -25px;
+}
+
+
 .inicial-texto {
   max-width: 450px;
 }
@@ -116,11 +141,20 @@ nav a {
   font-size: 25px;
   line-height: 1.2;
   font-weight: 100;
+  position: relative;
+  z-index: 99;
 }
 
+.inicial-h1:hover{
+  position: relative;
+  z-index: 99;
+  transform: scale(1.02) translateX(-3px);
+}
 
 .inicial-p p {
   text-transform: none;
+  position: relative;
+  z-index: 99;
   transition: transform 0.3s ease;
   padding: 0px;
   margin: 0 0 25px 0;
@@ -133,7 +167,7 @@ nav a {
 }
 
 .inicial-p p:hover {
-  transform: scale(1.12);
+  transform: scale(1.02);
 }
 
 .inicial-p1 p{
@@ -146,12 +180,14 @@ nav a {
   color: #fafafae7;
   margin-bottom: -10px;
   text-transform: none;
-  transition: transform 0.1s ease;
+  position: relative;
+  z-index: 99;
 }
 
 .inicial-p1:hover {
-  transform: scale(1.10);
-
+  transform: scale(1.02);
+  position: relative;
+  z-index: 99;
 }
 
 .btn {
@@ -179,19 +215,6 @@ nav a {
   transform: scale(1.10);
 }
 
-
-.inicial-img {
-  order: -1;
-}
-
-.inicial-img img {
-  margin-top: -10%;
-  width: 500px;
-  height: 400px;
-  display: block;
-  margin-left: -25px;
-}
-
 .sobre {
   margin-top: 320px;
   width: 100%;
@@ -212,6 +235,7 @@ nav a {
   margin-left: 190px;
   margin-top: 175px;
 }
+
 
 .sobre .content {
   margin-left: 310px;
@@ -254,6 +278,17 @@ nav a {
   color: #e6e6e6;
 }
 
+.cli-satis{
+  display: flex;
+  gap: 200px;
+
+}
+
+.clientes:hover{
+  transform: scale(1) translateY(-10px);
+
+}
+
 .clientes h1 {
   font-size: 30px;
   color: #fff;
@@ -264,24 +299,36 @@ nav a {
 .clientes p {
   font-size: 30px;
   color: #fff;
-  margin-top: 30px;
+  margin-top: 10px;
   margin-left: 300px;
 }
+
+
 
 .satisfacao h1 {
   font-size: 30px;
   color: #fff;
-  margin-top: -100px;
-  margin-left: 675px;
+  margin-top: -300px;
+
 }
 
 .satisfacao p {
   font-size: 30px;
   color: #fff;
-  margin-top: 25px;
-  margin-left: 715px;
+  margin-top: 10px;
+  margin-left: 35px;
 }
 
+.satisfacao{
+  margin-top: 220px;
+  margin-left: 650px;
+
+}
+
+.satisfacao:hover{
+  transform: scale(1) translateY(-10px);
+
+}
 .servicos {
   background-image: url('img/Fundo\ 1.png');
   width: 100%;
@@ -298,6 +345,12 @@ nav a {
 .servicos .titulo img {
   margin-left: 600px;
   margin-top: -50px;
+  z-index: 99;
+  position: relative;
+}
+
+.servicos .titulo .titulo-img:hover{
+  transform: scale(1.10);
 }
 
 .servicos .titulo .subtitulo {
@@ -351,6 +404,7 @@ nav a {
 
 }
 
+
 .servicos .box-container .slide1 h1 {
   color: #521212;
   text-align: center;
@@ -376,7 +430,7 @@ nav a {
 .servicos .box-container .slide1:hover {
   box-shadow: 0px 0px 12px 12px #777777;
   background-color: #e7e7e7;
-
+  transform: scale(1.03) translateY(-15px);
 }
 
 .servicos .box-container .slide2 {
@@ -416,6 +470,7 @@ nav a {
 .servicos .box-container .slide2:hover {
   box-shadow: 0px 0px 12px 12px #777777;
   background-color: #e6e6e6;
+  transform: scale(1.03) translateY(-15px);
 }
 
 .servicos .box-container .slide3 {
@@ -455,6 +510,7 @@ nav a {
 .servicos .box-container .slide3:hover {
   box-shadow: 0px 0px 12px 12px #777777;
   background-color: #e7e7e7;
+  transform: scale(1.03) translateY(-15px);
 }
 
 .servicos .box-container .slide4 {
@@ -492,6 +548,7 @@ nav a {
 .servicos .box-container .slide4:hover {
   box-shadow: 0px 0px 12px 12px #777777;
   background-color: #e7e7e7;
+  transform: scale(1.03) translateY(-15px);
 }
 
 .servicos h2 {
@@ -566,6 +623,10 @@ nav a {
   display: block;
 }
 
+.section .container .titulo:hover{
+  transform: scale(1.03) translateY(-10px)
+}
+
 
 .avaliacoes {
   display: grid;
@@ -592,6 +653,7 @@ nav a {
 .avaliacao:hover {
   transform: translateY(-6px);
   box-shadow: 0 20px 40px rgba(110, 64, 64, 0.932);
+  transform: scale(1.03) translateY(-15px);
 }
 
 .quote {
@@ -697,10 +759,34 @@ nav a {
 }
 .footer-container .social-icons img {
     width: 70px;
+    display: flex;
+    align-items: center;
     padding: 15px;
     margin-top: -20px;
     margin-left: -140px;
-    flex-direction: column;
+}
+
+.footer-container .social-icons {
+    display: flex;
+    gap: 70px;
+    margin-left: -110px;
+
+}
+
+.footer-container .social-icons .yt{
+  margin-top: 3px;
+}
+
+.footer-container .social-icons .yt:hover{
+  transform: scale(1.03) translateY(-5px);
+}
+
+.footer-container .social-icons .insta:hover{
+  transform: scale(1.03) translateY(-5px);
+}
+
+.footer-container .social-icons .linkedin:hover{
+  transform: scale(1.03) translateY(-5px);
 }
 
 .footer-container h2{

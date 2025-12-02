@@ -142,12 +142,18 @@ p {
 }
 
 .footer-container {
-    max-width: 1200px;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 50px;
-    line-height: 3.0;
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  line-height: 3.0;
+}
+
+.footer-logos img {
+  width: 240px;
+  margin-bottom: 20px;
 }
 
 .footer-colunas {
