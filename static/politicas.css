@@ -70,7 +70,7 @@ header nav ul li::after {
 
 header nav ul li:hover::after {
     width: 100%;
-}
+}   
 
 .menu-lateral {
     position: fixed;
@@ -84,6 +84,7 @@ header nav ul li:hover::after {
     border-right: 1px solid rgba(255, 255, 255, 0.15);
     box-shadow: 5px 0 15px rgba(0, 0, 0, 0.2);
     overflow-y: auto;
+    
 }
 
 .menu-lateral p {
@@ -140,58 +141,62 @@ header nav ul li:hover::after {
 }
 
 .footer {
-    background-color: #000;
+    background-color: black;
     color: #ffffff;
-    width: 100%;
-    padding: 60px 0;
+    margin-left: 100px;
+    display: flex;
     margin-top: 80px;
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .footer-container {
     max-width: 1200px;
-    width: 100%;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 40px;
+    gap: 50px;
+    line-height: 3.0;
 }
 
-.footer-logos img {
-    width: 240px;
-    margin-bottom: 20px;
-}
-
-.footer-container h2 {
-    font-weight: 600;
-    font-size: 16px;
-    margin-bottom: 15px;
-    color: #521212;
+.footer-colunas {
+    margin-right: -200px;
+    margin-top: 90px;
 }
 
 .footer-colunas a {
     display: block;
     color: #dddddd;
     text-decoration: none;
+    margin: 8px 0;
     font-size: 15px;
-    margin: 6px 0;
-    transition: 0.3s ease;
 }
 
 .footer-colunas a:hover {
     color: #521212;
-    padding-left: 5px;
 }
 
-.social-icons a img {
-    width: 34px;
-    margin-right: 10px;
-    margin-top: 8px;
-    filter: brightness(0.8);
-    transition: 0.3s;
+.footer-title {
+    color: #521212;
+    font-size: 15px;
+    font-weight: bold;
 }
 
-.social-icons a img:hover {
-    filter: brightness(1.2);
-    transform: translateY(-3px);
+.footer-container .footer-logos img {
+    width: 500px;
+    margin-bottom: 40px;
+    margin-left: -350px;
+}
+
+.footer-container .social-icons img {
+    width: 40px;
+    padding: 15px;
+    margin-top: -20px;
+    margin-left: -140px;
+    flex-direction: column;
+}
+
+.footer-container h2 {
+    margin-top: -180px;
+    margin-left: -230px;
+    font-size: 15px;
+    color: #521212;
 }

@@ -75,6 +75,7 @@ header nav a:hover {
     backdrop-filter: blur(5px);
     border-right: 1px solid rgba(255, 255, 255, 0.15);
     overflow-y: auto;
+    gap: 50px;
 }
 
 .menu-lateral p {
@@ -127,9 +128,11 @@ p {
 }
 
 .footer {
-    background: #000000;
-    padding: 50px 20px;
-    margin-top: 60px;
+    background-color: black;
+    color: #ffffff;
+    display: flex;
+    margin-top: 80px;
+   margin-right: -90px;
 }
 
 .footer-container {
@@ -138,36 +141,48 @@ p {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 50px;
+    line-height: 3.0;
 }
 
-.footer-colunas p.footer-title {
-    font-size: 17px;
-    color: #521212;
+.footer-colunas {
+    margin-right: -200px;
+    margin-top: 90px;
 }
 
 .footer-colunas a {
-    color: #cccccc;
-    text-decoration: none;
     display: block;
-    margin-bottom: 8px;
-    transition: 0.3s;
+    color: #dddddd;
+    text-decoration: none;
+    margin: 8px 0;
+    font-size: 15px;
 }
 
 .footer-colunas a:hover {
     color: #521212;
 }
 
-.footer-logos img {
-    width: 280px;
-    margin-bottom: 20px;
+.footer-title {
+    color: #521212;
+    font-size: 15px;
+    font-weight: bold;
 }
 
-.social-icons img {
-    width: 38px;
-    margin-right: 10px;
-    transition: 0.3s;
+.footer-container .footer-logos img {
+    width: 500px;
+    margin-bottom: 40px;
+    margin-left: -350px;
 }
 
-.social-icons img:hover {
-    transform: scale(1.1);
+.footer-container .social-icons img {
+    width: 40px;
+    padding: 15px;
+    margin-top: -20px;
+    margin-left: -140px;
+    flex-direction: column;
+}
+
+.footer-container h2 {
+    margin-top: -180px;
+    margin-left: -230px;
+    font-size: 15px;
 }

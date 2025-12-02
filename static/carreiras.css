@@ -142,7 +142,7 @@ p {
     bottom: 2px;
     right: 0;
     z-index: 99;
-    display: flex;
+   display: flex;
 }
 
 .footer-container {
@@ -165,7 +165,6 @@ p {
     text-decoration: none;
     margin: 8px 0;
     font-size: 15px;
-    margin-left: 100;
 }
 
 .footer-colunas a:hover {
@@ -195,6 +194,5 @@ p {
 .footer-container h2 {
     margin-top: -180px;
     margin-left: -230px;
-    font-weight: 100;
     font-size: 15px;
 }
